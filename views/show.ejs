@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(30, 32, 34);
+            margin: auto;
+        }
+
+
+
+.data{
+    background-color: rgb(194, 214, 199);
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    align-items: center;
+
+  
+}
+
+.tasks{
+
+    background-color: rgb(202, 194, 194);
+    max-width: 60%;
+}
+
+#home{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(255, 156, 34);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tasks>h2{
+    color: rgb(214, 10, 10);
+    padding: 10px;
+    text-align: center;
+}
+
+.tasks>p{
+    color: rgb(52, 16, 214);
+    padding: 10px;
+    
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    </style>
+</head>
+<body>
+    <div class="data">
+
+    <div><a id="home" href="/">go back to home</a></div>
+    <!-- form -->
+    <div class="box">
+     <h1>welcome to our tasklist app</h1>
+
+    </div>
+   
+    <!-- tasks sheet -->
+    <div class="tasks">
+     
+        
+         
+         <h2><%=filename%></h2>
+        
+             <p><%=filedata%> </p>
+
+    </div>
+
+</div>
+
+    
+</body>
+</html>
